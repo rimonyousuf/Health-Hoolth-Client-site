@@ -1,0 +1,14 @@
+.food-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.title{
+    width: 30px;
+    text-align: center;
+    background-color: rgb(249, 83, 83);
+    color: white;
+    border-radius: 50%;
+}

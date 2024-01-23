@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "img": "../src/assets/images/gril.jpg",
+        "title": "G",
+        "name": "Grill",
+        "desc": "A grill is a cooking device that uses direct heat to cook food placed on a rack or grate. The food is positioned on the grate, which is heated by a fire or electric element. Grilling is a popular cooking method that imparts a smoky flavor to food and is often used for cooking meat, fish, and vegetables. Grilling terms include grate, indirect cooking, hot smoking, and kabob. Food descriptions for menus can include terms such as grilled, charred, blackened, and broiled. Grill cooks require basic cooking skills, safety regulations knowledge, customer service orientation, and time management skills.",
+        "price": "29.79",
+        "rating": "4.6"
+    },
+    {
+        "id": "2",
+        "img": "../src/assets/images/salad.jpg",
+        "title": "S",
+        "name": "Salad",
+        "desc": "A salad is a dish consisting of mixed ingredients, frequently vegetables, served chilled or at room temperature.The word salad comes from the French salade, which is an abbreviated form of the earlier Vulgar Latin herba salata (salted herb).Salads can be enhanced with a variety of dressings, which are typically based on either a mixture of oil and vinegar or a creamy dairy base3
+        . Some common ingredients in salads include vegetables, fruits, eggs, grains, nuts, berries, seeds, lentils, and flowers3
+        . Hard-boiled eggs, bacon, shrimp, and cheeses may be used as garnishes, but large amounts of animal-based foods would be more likely in a dinner salad","price": "34.99",
+        "rating": "4.1"
+    },
+    {
+        "id": "3",
+        "img": "../src/assets/images/fresh.jpg",
+        "title": "F",
+        "name": "Fresh Recipie",
+        "desc": "Fresh recipes often use fresh fruits, vegetables, and meats, as well as herbs and spices for added flavor. These ingredients are typically sourced from local farmers' markets or specialty stores to ensure their freshness.Fresh recipes often require minimal processing and cooking, allowing the natural flavors and textures of the ingredients to shine. Techniques such as grilling, sautéing, and roasting can be used to enhance the flavors of the dish.Fresh recipes are often visually appealing, with vibrant colors and textures that make them appealing to the eye. Garnishes and plating can also be used to enhance the presentation of the dish.",
+        "price": "39.99",
+        "rating": "3.8"
+    },
+    {
+        "id": "4",
+        "img": "../src/assets/images/desert.jpg",
+        "title": "D",
+        "name": "Top Desert",
+        "desc": "There are many top dessert recipes to choose from, but some of the most popular ones include Snickerdoodle Blondies, Strawberry Crunch Poke Cake, Lemon-Blueberry Mini Cheesecake Cupcakes, Creamsicles, and Flourless Chocolate Coconut Cake1
+        . Other highly rated desserts include Coconut-Banana Pudding, Peach Cobbler, Brigadeiro, and Chocolate Chip Banana Bread.
+        . When writing a dessert recipe, it is important to be clear and concise, using standard terms and measurements to describe the ingredients and preparation steps5
+        . Whether you prefer fruity pies, creamy cheesecakes, or decadent chocolate cakes, there is a dessert recipe out there to satisfy your sweet tooth.",
+        "price": "35.49",
+        "rating": "4.5"
+    }
+]
