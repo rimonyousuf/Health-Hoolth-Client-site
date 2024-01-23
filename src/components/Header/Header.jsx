@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='bg-primary-subtle'>
+        <div className='bg-primary-subtle mb-2'>
             <Container className='d-flex align-items-center justify-content-between'>
             <Image style={{width:"200px"}} src={logo}></Image>
             <Nav>

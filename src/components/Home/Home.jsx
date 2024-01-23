@@ -10,7 +10,7 @@ const Home = () => {
 
     return (
         <Container>
-            <Image style={{ width: "1280px" }} src={home} />
+            <Image style={{ width: "1280px",borderRadius:"10px" }} src={home} />
             <div className='mt-4 d-flex'>
                 {
                     foods.map(food => <Foods

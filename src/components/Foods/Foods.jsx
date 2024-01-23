@@ -11,7 +11,7 @@ const Foods = ({ food }) => {
         <Container>
             <Card className='p-2 bg-body-tertiary'>
                 <Image className='food-img mb-4' src={img} />
-                <div className='d-flex justify-content-between'>
+                <div className='d-flex justify-content-evenly'>
                     <h3 className='title'>{title}</h3>
                     <h4>{name}</h4>
                 </div>
