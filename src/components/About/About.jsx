@@ -1,10 +1,24 @@
 import React from 'react';
+import './About.css'
+import { Container } from 'react-bootstrap';
+import { useLoaderData } from 'react-router-dom';
+import Chef from '../Chef/Chef';
 
 const About = () => {
+
+    const chefs = useLoaderData();
+
     return (
-        <div>
-            <h3>About Chef</h3>
-        </div>
+        <Container>
+            <div className="chef-display">
+                {
+                    chefs.map(chef => <Chef
+                        key={chef.id}
+                        chef={chef}
+                    ></Chef>)
+                }
+            </div>
+        </Container>
     );
 };
 
