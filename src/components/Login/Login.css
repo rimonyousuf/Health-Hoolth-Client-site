@@ -1,3 +1,15 @@
 .cursor-pointer{
     cursor: pointer;
 }
+
+.btn-google{
+    background-color: whitesmoke;
+    border: 1px solid rgb(53, 52, 52);
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 50%;
+}
+
+.btn-google:hover{
+    background-color: rgb(241, 243, 246);
+}
