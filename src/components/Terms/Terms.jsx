@@ -1,8 +1,12 @@
 import React from 'react';
 import { Button, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useTitle from '../../hooks/useTitle';
 
 const Terms = () => {
+
+    useTitle('Terms & Conditions')
+
     return (
         <Container className='w-50'>
             <h2 className='text-center mb-4'>Terms and Conditions Agreement:</h2>

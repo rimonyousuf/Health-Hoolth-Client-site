@@ -26,22 +26,22 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch('https://health-hoolth-server-9k609jj0c-rimonyousufs-projects.vercel.app/foods/')
+        loader: () => fetch('http://localhost:5000/foods/')
       },
       {
         path: "/foods/:id",
         element: <PrivateRouter><Food></Food></PrivateRouter>,
-        loader: ({ params }) => fetch(`https://health-hoolth-server-9k609jj0c-rimonyousufs-projects.vercel.app/foods/${params.id}`)
+        loader: ({ params }) => fetch(`http://localhost:5000/foods/${params.id}`)
       },
       {
         path: "/blogs",
         element: <Blogs></Blogs>,
-        loader: () => fetch('https://health-hoolth-server-9k609jj0c-rimonyousufs-projects.vercel.app/blogs')
+        loader: () => fetch('http://localhost:5000/blogs')
       },
       {
         path: "/about",
         element: <About></About>,
-        loader: () => fetch('https://health-hoolth-server-9k609jj0c-rimonyousufs-projects.vercel.app/chefs')
+        loader: () => fetch('http://localhost:5000/chefs')
       },
       {
         path: "/login",

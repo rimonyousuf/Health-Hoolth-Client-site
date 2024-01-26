@@ -2,8 +2,11 @@ import React from 'react';
 import './Food.css'
 import { Button, Card, Container, Image } from 'react-bootstrap';
 import { Link, useLoaderData } from 'react-router-dom';
+import useTitle from '../../hooks/useTitle';
 
 const Food = () => {
+
+    useTitle('Food')
 
     const food = useLoaderData();
     const { img, name, desc, price, rating } = food

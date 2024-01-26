@@ -2,8 +2,11 @@ import React, { useContext, useState } from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Provider/AuthProvider';
+import useTitle from '../../hooks/useTitle';
 
 const Register = () => {
+
+    useTitle('Registration')
 
     const { createUser, verifyEmail } = useContext(AuthContext);
 
